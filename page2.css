@@ -1,0 +1,26 @@
+*{
+    background-color: black;
+    font-family: 'Poppins';
+    margin: 0;
+    overflow-x: hidden; 
+}
+.heading{
+    color: orange;
+    font-size: xx-large;    
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.content{
+    color: white;
+    font-size: large;
+    padding-left: 25%;
+}
+
+ul li::before{
+    content: "\2022";
+    color: orange;
+    font-weight: bold;
+    display: inline-block; 
+  width: 1em;
+}
