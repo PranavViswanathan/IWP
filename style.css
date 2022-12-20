@@ -21,6 +21,13 @@
     position: absolute;
     top: 33%;
     left: 20%;
+	color: white;
+	background: url("https://64.media.tumblr.com/d360fd1930a7e7c2d19e07de8fb8142d/tumblr_otwzm1Sbb81runoqyo5_540.gifv");
+	background-size: cover;
+	background-position: center;
+	-webkit-background-clip: text;
+	color: #00000047;
+	text-transform: uppercase;
 }
 
 .headingclass p{
@@ -28,16 +35,31 @@
     left: 20%;
 }
 
-.form-section{
+.about-hackathon{
 	height: 100vh;
 	width: 100vw;
-	background-color: black;
+	background-color:black;
+	padding: 5%;
+	padding-right: 20%;
+}
+.about-hackathon p{
+	width: 80%;
+}
+.about-hackathon h1{
+	color: orange;
+	font-size: 50px 
+}
+
+.form-section{
+	height: 80vh;
+	width: 100vw;
+	background-color: #423d3d;
 	padding: 4%;
 }
 
 .form-section h1{
 	color: orange;
-	size: 50px
+	font-size: 50px
 }
 .form-div{
 	display: block;
