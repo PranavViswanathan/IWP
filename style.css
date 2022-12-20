@@ -1,0 +1,65 @@
+*{
+	color: white;
+	overflow-x: hidden;
+	font-family: 'Poppins';
+	margin: 0;
+}
+
+.headingClass{
+	height: 100vh;
+	width: 100vw;
+	background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),url("1.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+
+.headingClass h1{
+    font-size: 110px;
+    font-weight: bold;
+    position: absolute;
+    top: 33%;
+    left: 20%;
+}
+
+.headingclass p{
+    top: 33%;
+    left: 20%;
+}
+
+.form-section{
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+	padding: 4%;
+}
+
+.form-section h1{
+	color: orange;
+	size: 50px
+}
+.form-div{
+	display: block;
+    text-align: center;
+
+}
+form{
+	display: inline-block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	text-align: left;
+    	color: black;
+}
+input, select, textarea, option{
+    color: black;
+    border-radius: 10px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: orange;
+  border: none;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
